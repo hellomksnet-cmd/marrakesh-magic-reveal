@@ -8,51 +8,51 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Moroccan Color Palette */
-    --background: 220 20% 10%;
-    --foreground: 43 69% 95%;
+    /* Moroccan Flag Color Palette */
+    --background: 0 0% 8%;
+    --foreground: 0 0% 98%;
 
-    --card: 220 20% 12%;
-    --card-foreground: 43 69% 95%;
+    --card: 0 0% 10%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 220 20% 12%;
-    --popover-foreground: 43 69% 95%;
+    --popover: 0 0% 10%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 218 84% 39%; /* Chefchaouen Blue */
+    --primary: 154 100% 25%; /* Moroccan Flag Green */
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 22 100% 40%; /* Terracotta */
+    --secondary: 358 75% 46%; /* Moroccan Flag Red */
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 220 20% 25%;
-    --muted-foreground: 43 30% 70%;
+    --muted: 0 0% 20%;
+    --muted-foreground: 0 0% 70%;
 
     --accent: 51 100% 50%; /* Gold */
-    --accent-foreground: 220 20% 10%;
+    --accent-foreground: 0 0% 10%;
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 358 75% 46%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 20% 20%;
-    --input: 220 20% 20%;
-    --ring: 218 84% 39%;
+    --border: 0 0% 18%;
+    --input: 0 0% 18%;
+    --ring: 154 100% 25%;
 
     --radius: 0.75rem;
 
     /* Moroccan Extended Colors */
     --desert-sand: 43 69% 87%;
-    --mint-green: 120 100% 80%;
-    --deep-purple: 280 60% 20%;
-    --sunset-orange: 22 100% 50%;
+    --flag-green: 154 100% 25%;
+    --flag-red: 358 75% 46%;
+    --gold-star: 51 100% 50%;
 
     /* Gradients */
-    --gradient-morocco: linear-gradient(135deg, hsl(218 84% 39%), hsl(51 100% 50%));
-    --gradient-sunset: linear-gradient(135deg, hsl(22 100% 40%), hsl(51 100% 50%));
-    --gradient-desert: linear-gradient(180deg, hsl(43 69% 87%), hsl(22 100% 40%));
+    --gradient-morocco: linear-gradient(135deg, hsl(154 100% 25%), hsl(358 75% 46%));
+    --gradient-sunset: linear-gradient(135deg, hsl(358 75% 46%), hsl(51 100% 50%));
+    --gradient-desert: linear-gradient(180deg, hsl(43 69% 87%), hsl(358 75% 46%));
 
     /* Shadows */
-    --shadow-moroccan: 0 10px 40px -10px hsl(218 84% 39% / 0.4);
-    --shadow-glow: 0 0 60px hsl(51 100% 50% / 0.3);
+    --shadow-moroccan: 0 10px 40px -10px hsl(154 100% 25% / 0.4);
+    --shadow-glow: 0 0 60px hsl(358 75% 46% / 0.3);
 
     /* Animations */
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -76,8 +76,8 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 220 20% 10%;
-    --foreground: 43 69% 95%;
+    --background: 0 0% 8%;
+    --foreground: 0 0% 98%;
   }
 }
 
