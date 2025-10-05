@@ -8,6 +8,7 @@ import ArchitectureSlide from "./slides/ArchitectureSlide";
 import CitiesSlide from "./slides/CitiesSlide";
 import GeographySlide from "./slides/GeographySlide";
 import CultureSlide from "./slides/CultureSlide";
+import ClothingSlide from "./slides/ClothingSlide";
 import FoodSlide from "./slides/FoodSlide";
 import ModernMoroccoSlide from "./slides/ModernMoroccoSlide";
 import StudentLifeSlide from "./slides/StudentLifeSlide";
@@ -24,6 +25,7 @@ const slides = [
   CitiesSlide,
   GeographySlide,
   CultureSlide,
+  ClothingSlide,
   FoodSlide,
   ModernMoroccoSlide,
   StudentLifeSlide,
